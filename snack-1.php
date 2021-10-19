@@ -66,12 +66,14 @@
         <li><strong>
                 <?php echo $partite[0]["sCasa"] . " - " . $partite[0]["sOspite"]?>
             </strong> | 
-                <?php echo $partite[0]["sCasaPunti"] . " - " . $partite[0]["sOspitePunti"]?></li>
+                <?php echo $partite[0]["sCasaPunti"] . " - " . $partite[0]["sOspitePunti"]?>
+        </li>
 
         <li><strong>
                 <?php echo $partite[1]["sCasa"] . " - " . $partite[1]["sOspite"]?>
             </strong> | 
-            <?php echo $partite[1]["sCasaPunti"] . " - " . $partite[1]["sOspitePunti"]?></li>
+            <?php echo $partite[1]["sCasaPunti"] . " - " . $partite[1]["sOspitePunti"]?>
+    </li>
 
         <li><strong>
                 <?php echo $partite[2]["sCasa"] . " - " . $partite[2]["sOspite"]?>
@@ -82,17 +84,20 @@
         <li><strong>
                 <?php echo $partite[3]["sCasa"] . " - " . $partite[3]["sOspite"]?>
             </strong> | 
-                <?php echo $partite[3]["sCasaPunti"] . " - " . $partite[3]["sOspitePunti"]?></li>
+                <?php echo $partite[3]["sCasaPunti"] . " - " . $partite[3]["sOspitePunti"]?>
+        </li>
 
         <li><strong>
                 <?php echo $partite[4]["sCasa"] . " - " . $partite[4]["sOspite"]?>
             </strong> | 
-                <?php echo $partite[4]["sCasaPunti"] . " - " . $partite[4]["sOspitePunti"]?></li>
+                <?php echo $partite[4]["sCasaPunti"] . " - " . $partite[4]["sOspitePunti"]?>
+        </li>
 
         <li><strong>
                 <?php echo $partite[5]["sCasa"] . " - " . $partite[5]["sOspite"]?>
             </strong> | 
-                <?php echo $partite[5]["sCasaPunti"] . " - " . $partite[5]["sOspitePunti"]?></li>
+                <?php echo $partite[5]["sCasaPunti"] . " - " . $partite[5]["sOspitePunti"]?>
+        </li>
     </ul>
 </body>
 </html>
