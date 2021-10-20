@@ -58,10 +58,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Lasts Match</title>
+    <title>NBA Last Matches</title>
 </head>
 <body>
-    <h1>NBA 6 Lasts Match</h1>
+    <h1>Last 6 NBA Matches</h1>
     <ul>
         <?php for ($i = 0; $i < count($partite); $i++) {
             echo "<li><strong>" . $partite[$i]["sCasa"] . " - " . $partite[$i]["sOspite"] . "</strong> | " . $partite[$i]["sCasaPunti"] . " - " . $partite[$i]["sOspitePunti"] . "</li>";
