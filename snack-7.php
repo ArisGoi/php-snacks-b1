@@ -25,12 +25,11 @@
     ];
 
     function media($arrNumbs){
-        $media=0;
+        $somma=0;
         foreach($arrNumbs as $num){
-            $media += $num;
+            $somma += $num;
         };
-        $media /= count($arrNumbs);
-        return intval($media);
+        return round($somma /= count($arrNumbs), 2);
     }
 ?>
 <!DOCTYPE html>
@@ -43,10 +42,12 @@
 </head>
 <body>
     <ul>
-        <?php foreach($studenti as $studente){
-            // echo "<li>".$studente["nome"]." ".$studente["cognome"]." ".media($studente["voti"])."</li>";
-            echo "<li>{$studente["nome"]} {$studente["cognome"]} - la tua media è: ". media($studente["voti"]) . "</li>";
-        }?>
+        <?php foreach($studenti as $studente):?>
+            <li>
+                <h3><?= "{$studente["nome"]} {$studente["cognome"]}" ?></h3>
+                <p>la tua media è: <?= media($studente["voti"]) ?></p>
+            </li>
+        <?php endforeach; ?>
     </ul>
 </body>
 </html>
